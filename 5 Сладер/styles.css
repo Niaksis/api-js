@@ -1,0 +1,41 @@
+body {
+    min-height: 100vh;
+    background-color: rgb(161, 161, 213);
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    background: url(/img/bg.png) center/cover no-repeat ;
+}
+
+.container {
+    flex: 0 0 80%;
+    min-height: 70vh;
+    background: url(/img/5.jpg) center/cover no-repeat;
+    border-radius: 2rem;
+    box-shadow: 5px 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    padding: 0;
+    display: flex;
+    background: none;
+    border-radius: 100%;
+    outline: none;
+    border: none;
+}
+
+.btn:hover img{
+    
+    filter: brightness(1);
+    max-height: 12vh;
+    
+}
+
+img {
+    background: none;
+    max-height: 10vh;
+    filter: brightness(2);
+}

@@ -1,0 +1,12 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0a0b38;
+  font-family: "Redressed", cursive;
+  font-size: 7rem;
+}
+.clock {
+  color: #edcf2f;
+}

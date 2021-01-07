@@ -1,0 +1,50 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulyator</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    
+
+</head>
+
+<body>
+    <div class="calc">
+        <div class="InputOutput">
+            <input autofocus placeholder="0" class="numberInput" type="text" readonly>
+            <input placeholder="0" class="numberOutnput" type="text" readonly>
+        </div>
+        <button onclick="clearLast()" class="reset allButtons">CE</button>
+        <button onclick="percent()" class="allButtons">%</button>
+        <button onclick="clearAll()" class="allReset allButtons">С</button>
+        <button onclick="backspase()" class="allButtons">&laquo;</button>
+        <button onclick="half()" class="allButtons">&frac12;</button>
+        <button onclick="square()" class="allButtons">X&sup2;</button>
+        <button onclick="cube()" class="allButtons">X&sup3;</button>
+        <button onclick="input('/')" class="allButtons expression">&divide;</button>
+        <button onclick="input('7')" class="allButtons forNumbers">7</button>
+        <button onclick="input('8')" class="allButtons forNumbers">8</button>
+        <button onclick="input('9')" class="allButtons forNumbers">9</button>
+        <button onclick="input('*')" class="allButtons expression">&times;</button>
+        <button onclick="input('5')" class="allButtons forNumbers">5</button>
+        <button onclick="input('6')" class="allButtons forNumbers">6</button>
+        <button onclick="input('4')" class="allButtons forNumbers">4</button>
+        <button onclick="input('-')" class="allButtons expression">&minus;</button>
+        <button onclick="input('1')" class="allButtons forNumbers">1</button>
+        <button onclick="input('2')" class="allButtons forNumbers">2</button>
+        <button onclick="input('3')" class="allButtons forNumbers">3</button>
+        <button onclick="input('+')" class="allButtons expression">&plus;</button>
+        <button onclick="plmin()" class="allButtons">&plusmn;</button>
+        <button onclick="input('0')" class="allButtons forNumbers">0</button>
+        <button onclick="input('.')" class="allButtons">&middot;</button>
+        <button onclick="output()" class="allButtons">=</button>
+    </div>
+
+    <script src="/script.js"></script>
+
+</body>
+
+</html>
