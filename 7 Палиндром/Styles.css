@@ -1,0 +1,41 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(141, 86, 157);
+    font-size: 3rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    text-align: center;
+    background-color: bisque;
+    border-radius: .7rem;
+}
+
+input {
+    font-size: 3rem;
+text-align: center;
+border-radius: .7rem;
+margin-bottom: 3rem;
+}
+
+button{
+    font-size: 3rem;
+    background: none;
+    border-radius: 2rem;
+    border: thick double black;
+}
+
+button:hover{
+box-shadow: rgb(73, 193, 245) 0px 0px 10px;
+
+}
