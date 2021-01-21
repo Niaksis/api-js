@@ -10,7 +10,7 @@ btn_prev.addEventListener('click', function () {
         numImg = 6;
     }
     numImg--;
-    container.style.background = `url(/img/${numImg}.jpg`;
+    container.style.background = `url(img/${numImg}.jpg`;
     //console.log(`url(/img/${numImg}.jpg`)
 })
 
@@ -20,7 +20,7 @@ btn_next.addEventListener('click', function () {
         numImg = 0;
     }
     numImg++;
-    container.style.background = `url(/img/${numImg}.jpg`;
+    container.style.background = `url(./img/${numImg}.jpg`;
     //console.log(`url(/img/${numImg}.jpg`)
 })
 
